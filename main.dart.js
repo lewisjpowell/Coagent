@@ -44160,11 +44160,12 @@ A.a3y.prototype={
 $1(a){return new A.eM(A.b([],t.Da),$.aq())},
 $S:305}
 A.a3z.prototype={
-$1(a){var s,r=t.N
-r=A.y(r,r)
-r.n(0,"anthropic-version","2023-06-01")
-s=A.asg(new A.a_z(B.JP,A.b([],t.u)))
-return new A.ik(new A.Xq(new A.VV(null,r,B.cJ,A.asg(s),this.a.c)))},
+$1(a){var s=t.N,r=A.am(["anthropic-dangerous-direct-browser-access","true"],s,s)
+s=A.y(s,s)
+s.n(0,"anthropic-version","2023-06-01")
+s.N(0,r)
+r=A.asg(new A.a_z(B.JP,A.b([],t.u)))
+return new A.ik(new A.Xq(new A.VV(null,s,B.cJ,A.asg(r),this.a.c)))},
 $S:306}
 A.a3w.prototype={
 $2(a,b){if(b.b<700)return this.a.aed(a)
